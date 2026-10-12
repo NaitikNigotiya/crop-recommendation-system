@@ -147,19 +147,7 @@ so it cannot leak into the test evaluation.
 Do not quote any accuracy figure until you have run the scripts on the real dataset and read it from
 `reports/test_metrics.json`.
 
-## 8. Project details to fill in
-
-- Student name(s): TODO
-- Enrollment number(s): TODO
-- Course / section: Statistical Machine Learning
-- Faculty guide: TODO
-- Institution: TODO
-- Submission date: TODO
-- Dataset version / download date: Kaggle Crop Recommendation Dataset (2,200 samples, 22 classes)
-- Final selected model: Random Forest (300 estimators, stratified CV Macro-F1 = 0.9937)
-- Measured test metrics: Test Accuracy = 0.9932 (99.32%), Macro-F1 = 0.9932 (Baseline accuracy = 0.0455)
-
-## 9. Future work
+## 8. Future work
 
 Regional validation data, season and location features, permutation-importance explanations,
 hyperparameter search on training data, and external validation on data not used in development.
