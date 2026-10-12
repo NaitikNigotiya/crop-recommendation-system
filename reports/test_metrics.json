@@ -1,0 +1,26 @@
+{
+  "selected_model": "Random Forest",
+  "selection_criterion": "highest mean cross-validated macro-F1 on training data (baseline excluded)",
+  "test_accuracy": 0.9931818181818182,
+  "test_macro_f1": 0.9931775541531639,
+  "test_weighted_f1": 0.9931775541531639,
+  "baseline_test_accuracy": 0.045454545454545456,
+  "baseline_test_macro_f1": 0.003952569169960474,
+  "most_confused_pairs": [
+    {
+      "count": 1,
+      "actual": "rice",
+      "predicted": "jute"
+    },
+    {
+      "count": 1,
+      "actual": "lentil",
+      "predicted": "mothbeans"
+    },
+    {
+      "count": 1,
+      "actual": "blackgram",
+      "predicted": "maize"
+    }
+  ]
+}

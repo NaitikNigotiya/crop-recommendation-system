@@ -1,0 +1,17 @@
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Dataset: check the license/redistribution terms before committing it
+data/*.csv
+
+# Generated artifacts (re-create with src/train_model.py)
+models/*.joblib
+
+# Local secrets / OS files
+.env
+.DS_Store
